@@ -15,6 +15,8 @@
 		1816FD8C1E1E252E001F6F49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1816FD8A1E1E252E001F6F49 /* LaunchScreen.storyboard */; };
 		1816FD971E1E252E001F6F49 /* HJGuardDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1816FD961E1E252E001F6F49 /* HJGuardDemoTests.m */; };
 		1816FDA21E1E252E001F6F49 /* HJGuardDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1816FDA11E1E252E001F6F49 /* HJGuardDemoUITests.m */; };
+		1816FDB41E1E253F001F6F49 /* GuardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1816FDB11E1E253F001F6F49 /* GuardView.m */; };
+		1816FDB51E1E253F001F6F49 /* ZJGuardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1816FDB31E1E253F001F6F49 /* ZJGuardView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		1816FD9D1E1E252E001F6F49 /* HJGuardDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJGuardDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1816FDA11E1E252E001F6F49 /* HJGuardDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJGuardDemoUITests.m; sourceTree = "<group>"; };
 		1816FDA31E1E252E001F6F49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1816FDB01E1E253F001F6F49 /* GuardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuardView.h; sourceTree = "<group>"; };
+		1816FDB11E1E253F001F6F49 /* GuardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuardView.m; sourceTree = "<group>"; };
+		1816FDB21E1E253F001F6F49 /* ZJGuardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJGuardView.h; sourceTree = "<group>"; };
+		1816FDB31E1E253F001F6F49 /* ZJGuardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJGuardView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		1816FD7B1E1E252E001F6F49 /* HJGuardDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1816FDAF1E1E253F001F6F49 /* GuardView */,
 				1816FD7F1E1E252E001F6F49 /* AppDelegate.h */,
 				1816FD801E1E252E001F6F49 /* AppDelegate.m */,
 				1816FD821E1E252E001F6F49 /* ViewController.h */,
@@ -138,6 +145,17 @@
 				1816FDA31E1E252E001F6F49 /* Info.plist */,
 			);
 			path = HJGuardDemoUITests;
+			sourceTree = "<group>";
+		};
+		1816FDAF1E1E253F001F6F49 /* GuardView */ = {
+			isa = PBXGroup;
+			children = (
+				1816FDB01E1E253F001F6F49 /* GuardView.h */,
+				1816FDB11E1E253F001F6F49 /* GuardView.m */,
+				1816FDB21E1E253F001F6F49 /* ZJGuardView.h */,
+				1816FDB31E1E253F001F6F49 /* ZJGuardView.m */,
+			);
+			path = GuardView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,8 +291,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1816FDB41E1E253F001F6F49 /* GuardView.m in Sources */,
 				1816FD841E1E252E001F6F49 /* ViewController.m in Sources */,
 				1816FD811E1E252E001F6F49 /* AppDelegate.m in Sources */,
+				1816FDB51E1E253F001F6F49 /* ZJGuardView.m in Sources */,
 				1816FD7E1E1E252E001F6F49 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
