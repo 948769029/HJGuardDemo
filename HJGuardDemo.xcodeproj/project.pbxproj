@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1816FD7E1E1E252E001F6F49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1816FD7D1E1E252E001F6F49 /* main.m */; };
+		1816FD811E1E252E001F6F49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1816FD801E1E252E001F6F49 /* AppDelegate.m */; };
+		1816FD841E1E252E001F6F49 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1816FD831E1E252E001F6F49 /* ViewController.m */; };
+		1816FD871E1E252E001F6F49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1816FD851E1E252E001F6F49 /* Main.storyboard */; };
+		1816FD891E1E252E001F6F49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1816FD881E1E252E001F6F49 /* Assets.xcassets */; };
+		1816FD8C1E1E252E001F6F49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1816FD8A1E1E252E001F6F49 /* LaunchScreen.storyboard */; };
+		1816FD971E1E252E001F6F49 /* HJGuardDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1816FD961E1E252E001F6F49 /* HJGuardDemoTests.m */; };
+		1816FDA21E1E252E001F6F49 /* HJGuardDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1816FDA11E1E252E001F6F49 /* HJGuardDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1816FD931E1E252E001F6F49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1816FD711E1E252E001F6F49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1816FD781E1E252E001F6F49;
+			remoteInfo = HJGuardDemo;
+		};
+		1816FD9E1E1E252E001F6F49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1816FD711E1E252E001F6F49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1816FD781E1E252E001F6F49;
+			remoteInfo = HJGuardDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1816FD791E1E252E001F6F49 /* HJGuardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HJGuardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1816FD7D1E1E252E001F6F49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1816FD7F1E1E252E001F6F49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1816FD801E1E252E001F6F49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1816FD821E1E252E001F6F49 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1816FD831E1E252E001F6F49 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1816FD861E1E252E001F6F49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1816FD881E1E252E001F6F49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1816FD8B1E1E252E001F6F49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1816FD8D1E1E252E001F6F49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1816FD921E1E252E001F6F49 /* HJGuardDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJGuardDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1816FD961E1E252E001F6F49 /* HJGuardDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJGuardDemoTests.m; sourceTree = "<group>"; };
+		1816FD981E1E252E001F6F49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1816FD9D1E1E252E001F6F49 /* HJGuardDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJGuardDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1816FDA11E1E252E001F6F49 /* HJGuardDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJGuardDemoUITests.m; sourceTree = "<group>"; };
+		1816FDA31E1E252E001F6F49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1816FD761E1E252E001F6F49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1816FD8F1E1E252E001F6F49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1816FD9A1E1E252E001F6F49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1816FD701E1E252E001F6F49 = {
+			isa = PBXGroup;
+			children = (
+				1816FD7B1E1E252E001F6F49 /* HJGuardDemo */,
+				1816FD951E1E252E001F6F49 /* HJGuardDemoTests */,
+				1816FDA01E1E252E001F6F49 /* HJGuardDemoUITests */,
+				1816FD7A1E1E252E001F6F49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1816FD7A1E1E252E001F6F49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1816FD791E1E252E001F6F49 /* HJGuardDemo.app */,
+				1816FD921E1E252E001F6F49 /* HJGuardDemoTests.xctest */,
+				1816FD9D1E1E252E001F6F49 /* HJGuardDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1816FD7B1E1E252E001F6F49 /* HJGuardDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1816FD7F1E1E252E001F6F49 /* AppDelegate.h */,
+				1816FD801E1E252E001F6F49 /* AppDelegate.m */,
+				1816FD821E1E252E001F6F49 /* ViewController.h */,
+				1816FD831E1E252E001F6F49 /* ViewController.m */,
+				1816FD851E1E252E001F6F49 /* Main.storyboard */,
+				1816FD881E1E252E001F6F49 /* Assets.xcassets */,
+				1816FD8A1E1E252E001F6F49 /* LaunchScreen.storyboard */,
+				1816FD8D1E1E252E001F6F49 /* Info.plist */,
+				1816FD7C1E1E252E001F6F49 /* Supporting Files */,
+			);
+			path = HJGuardDemo;
+			sourceTree = "<group>";
+		};
+		1816FD7C1E1E252E001F6F49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1816FD7D1E1E252E001F6F49 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1816FD951E1E252E001F6F49 /* HJGuardDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1816FD961E1E252E001F6F49 /* HJGuardDemoTests.m */,
+				1816FD981E1E252E001F6F49 /* Info.plist */,
+			);
+			path = HJGuardDemoTests;
+			sourceTree = "<group>";
+		};
+		1816FDA01E1E252E001F6F49 /* HJGuardDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1816FDA11E1E252E001F6F49 /* HJGuardDemoUITests.m */,
+				1816FDA31E1E252E001F6F49 /* Info.plist */,
+			);
+			path = HJGuardDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1816FD781E1E252E001F6F49 /* HJGuardDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1816FDA61E1E252E001F6F49 /* Build configuration list for PBXNativeTarget "HJGuardDemo" */;
+			buildPhases = (
+				1816FD751E1E252E001F6F49 /* Sources */,
+				1816FD761E1E252E001F6F49 /* Frameworks */,
+				1816FD771E1E252E001F6F49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HJGuardDemo;
+			productName = HJGuardDemo;
+			productReference = 1816FD791E1E252E001F6F49 /* HJGuardDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1816FD911E1E252E001F6F49 /* HJGuardDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1816FDA91E1E252E001F6F49 /* Build configuration list for PBXNativeTarget "HJGuardDemoTests" */;
+			buildPhases = (
+				1816FD8E1E1E252E001F6F49 /* Sources */,
+				1816FD8F1E1E252E001F6F49 /* Frameworks */,
+				1816FD901E1E252E001F6F49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1816FD941E1E252E001F6F49 /* PBXTargetDependency */,
+			);
+			name = HJGuardDemoTests;
+			productName = HJGuardDemoTests;
+			productReference = 1816FD921E1E252E001F6F49 /* HJGuardDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1816FD9C1E1E252E001F6F49 /* HJGuardDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1816FDAC1E1E252E001F6F49 /* Build configuration list for PBXNativeTarget "HJGuardDemoUITests" */;
+			buildPhases = (
+				1816FD991E1E252E001F6F49 /* Sources */,
+				1816FD9A1E1E252E001F6F49 /* Frameworks */,
+				1816FD9B1E1E252E001F6F49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1816FD9F1E1E252E001F6F49 /* PBXTargetDependency */,
+			);
+			name = HJGuardDemoUITests;
+			productName = HJGuardDemoUITests;
+			productReference = 1816FD9D1E1E252E001F6F49 /* HJGuardDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1816FD711E1E252E001F6F49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "张洪健";
+				TargetAttributes = {
+					1816FD781E1E252E001F6F49 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					1816FD911E1E252E001F6F49 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1816FD781E1E252E001F6F49;
+					};
+					1816FD9C1E1E252E001F6F49 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1816FD781E1E252E001F6F49;
+					};
+				};
+			};
+			buildConfigurationList = 1816FD741E1E252E001F6F49 /* Build configuration list for PBXProject "HJGuardDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1816FD701E1E252E001F6F49;
+			productRefGroup = 1816FD7A1E1E252E001F6F49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1816FD781E1E252E001F6F49 /* HJGuardDemo */,
+				1816FD911E1E252E001F6F49 /* HJGuardDemoTests */,
+				1816FD9C1E1E252E001F6F49 /* HJGuardDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1816FD771E1E252E001F6F49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1816FD8C1E1E252E001F6F49 /* LaunchScreen.storyboard in Resources */,
+				1816FD891E1E252E001F6F49 /* Assets.xcassets in Resources */,
+				1816FD871E1E252E001F6F49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1816FD901E1E252E001F6F49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1816FD9B1E1E252E001F6F49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1816FD751E1E252E001F6F49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1816FD841E1E252E001F6F49 /* ViewController.m in Sources */,
+				1816FD811E1E252E001F6F49 /* AppDelegate.m in Sources */,
+				1816FD7E1E1E252E001F6F49 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1816FD8E1E1E252E001F6F49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1816FD971E1E252E001F6F49 /* HJGuardDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1816FD991E1E252E001F6F49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1816FDA21E1E252E001F6F49 /* HJGuardDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1816FD941E1E252E001F6F49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1816FD781E1E252E001F6F49 /* HJGuardDemo */;
+			targetProxy = 1816FD931E1E252E001F6F49 /* PBXContainerItemProxy */;
+		};
+		1816FD9F1E1E252E001F6F49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1816FD781E1E252E001F6F49 /* HJGuardDemo */;
+			targetProxy = 1816FD9E1E1E252E001F6F49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1816FD851E1E252E001F6F49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1816FD861E1E252E001F6F49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1816FD8A1E1E252E001F6F49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1816FD8B1E1E252E001F6F49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1816FDA41E1E252E001F6F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1816FDA51E1E252E001F6F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1816FDA71E1E252E001F6F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HJGuardDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanghongjian.HJGuardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1816FDA81E1E252E001F6F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HJGuardDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanghongjian.HJGuardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1816FDAA1E1E252E001F6F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HJGuardDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanghongjian.HJGuardDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HJGuardDemo.app/HJGuardDemo";
+			};
+			name = Debug;
+		};
+		1816FDAB1E1E252E001F6F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HJGuardDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanghongjian.HJGuardDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HJGuardDemo.app/HJGuardDemo";
+			};
+			name = Release;
+		};
+		1816FDAD1E1E252E001F6F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HJGuardDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanghongjian.HJGuardDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HJGuardDemo;
+			};
+			name = Debug;
+		};
+		1816FDAE1E1E252E001F6F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HJGuardDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhanghongjian.HJGuardDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HJGuardDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1816FD741E1E252E001F6F49 /* Build configuration list for PBXProject "HJGuardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1816FDA41E1E252E001F6F49 /* Debug */,
+				1816FDA51E1E252E001F6F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1816FDA61E1E252E001F6F49 /* Build configuration list for PBXNativeTarget "HJGuardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1816FDA71E1E252E001F6F49 /* Debug */,
+				1816FDA81E1E252E001F6F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1816FDA91E1E252E001F6F49 /* Build configuration list for PBXNativeTarget "HJGuardDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1816FDAA1E1E252E001F6F49 /* Debug */,
+				1816FDAB1E1E252E001F6F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1816FDAC1E1E252E001F6F49 /* Build configuration list for PBXNativeTarget "HJGuardDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1816FDAD1E1E252E001F6F49 /* Debug */,
+				1816FDAE1E1E252E001F6F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1816FD711E1E252E001F6F49 /* Project object */;
+}
